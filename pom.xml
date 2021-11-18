@@ -77,6 +77,10 @@
       <properties>
         <picUrl>https://people.apache.org/~ggregory/img/garydgregory80.png</picUrl>
       </properties>
+	<properties>
+ 	 <sonar.organization>gianniskiakos</sonar.organization>
+ 	 <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+	</properties>
     </developer>
     <developer>
       <name>Matthew Hawthorne</name>
@@ -841,9 +845,7 @@
         <!-- versions below 3.0.0 do not work with java 9 -->
         <commons.javadoc.version>3.0.1</commons.javadoc.version>
         <!-- coverall version 4.3.0 does not work with java 9, see https://github.com/trautonen/coveralls-maven-plugin/issues/112 -->
-        <coveralls.skip>true</coveralls.skip>
-	<sonar.organization>gianniskiakos</sonar.organization>
-        <sonar.host.url>https://sonarcloud.io</sonar.host.url>      
+        <coveralls.skip>true</coveralls.skip>     
 	      
       </properties>
     </profile>
